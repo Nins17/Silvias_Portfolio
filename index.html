@@ -5,16 +5,11 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Janin Anne Silvias (E-Portfolio)</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/files/profilepic.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <link href="assets/files/logo.png" rel="icon">
+  
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -26,432 +21,344 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+  .custom-shadow {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  }
+  .opacity{
+    opacity: 70%;
+  }
+  .fontheading{
+    font-size: 22px;;
+  }
+  .fontsubhead{
+    font-size: 12px;
+  }
+  .fontdesc{
+    font-size: 14px;
+  }
+  .landscape-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+  }
 
-  <!-- =======================================================
-  * Template Name: SnapFolio
-  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
-  * Updated: Jul 21 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+</style>
+
 </head>
 
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column justify-content-center">
     <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="header-container d-flex flex-column align-items-start">
+    <div class="header-container d-flex flex-column align-items-startmb-5">
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <li><a href="#education"><i class="bi bi-mortarboard navicon"></i> Education</a></li>
+           <li><a href="#Activities"><i class="bi bi-file-earmark-text navicon"></i> Activities</a></li>
+          <li><a href="#portfolio"><i class="bi bi-folder navicon"></i> Portfolio</a></li>
+          <li><a href="#contact"><i class="bi bi-telephone navicon"></i> Contact</a></li>
+          <li><a href="https://mail.google.com/mail/?view=cm&to=japu.silvias.ui@phinmaed.com"><i class="bi bi-envelope navicon"></i> Send Email</a></li>
+    
         </ul>
       </nav>
-
-      <div class="social-links text-center">
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="https://github.com/Nins17" class="linkedin"><i class="bi bi-github"></i></a>
-      </div>
-
     </div>
-
   </header>
 
   <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div class="background-elements">
-      </div>
-
-      <div class="hero-content">
-
-        <div class="container">
+     <!-- Intro Section -->
+      <section id="hero" class="hero py-6">
+        <div class="container text-center text-lg-start">
           <div class="row align-items-center">
 
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-              <div class="hero-text">
-                <h1><span class="accent-text">Profile</span></h1>
-                <h2>Janin Anne P. Silvias</h2>
-                <p class="lead">I'm a <span class="typed" data-typed-items="Systems Development Major, IT Student"></span></p>
-                <p class="description">A 4th year IT student turning ideas into systems</p>
-
-                <div class="hero-actions">
-                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
-                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            <div class="col-lg-6 mb-3 mb-lg-0">
+              <div class="d-flex align-items-center mb-3">
+                <img src="assets/files/logo.png" style="width:100px; margin-right:15px; opacity:90%;">
+                <div>
+                  <h1 class="fw-bold text-white mb-0">Janin Anne P. Silvias</h1>
+                  <h4 class="text-light">Systems Development Major, IT Student</h4>
                 </div>
+              </div>
 
-                <div class="social-links">
-                  <a href="https://github.com/Nins17"><i class="bi bi-github"></i></a>
-                </div>
+              <p class="mt-3">
+                An IT student who enjoys turning ideas into systems. I seek constant improvement and value every learning experience that helps me grow.
+              </p>
+
+              <div class="mt-4">
+                <a href="#portfolio" class="btn btn-light me-2">View My Work</a>
+                <a href="assets/files/JaninAnneSilvias_Resume.pdf" class="btn btn-outline-light me-2">View my Resume</a>
+                <a href="https://github.com/Nins17" class="btn text-light">
+                  <i class="bi bi-github"></i> Github
+                </a>
               </div>
             </div>
-
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-              <div class="hero-visual">
-                <div class="profile-container">
-                  <div class="profile-background"></div>
-                  <img src="assets/files/resumepic.jpg" alt="Janin Anne" class="profile-image">
-                </div>
-              </div>
+            
+            <div class="col-lg-4 text-center">
+              <img src="assets/files/resumepic.png" alt="Janin Anne" class="img-fluid  rounded" style="max-width: 350px;">
             </div>
 
           </div>
         </div>
-      </div>
+      </section>
 
-    </section><!-- /Hero Section -->
+      
 
-
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+      <section id="resume" class="resume section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>  
-      </div><!-- End Section Title -->
+
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
-          <!-- Left column with summary and contact -->
-          <div class="col-lg-4">
-            <div class="resume-side " data-aos="fade-right" data-aos-delay="100">
-              <div class="profile-img  ">
-                <img src="assets/files/profilepic.jpg" alt="Profile" class="img-fluid ">
-                <h3>Janin Anne P. Silvias</h3>
-                <p><i><b>Bachelor of Science in Information Technology Major in Systems Development</b></i></p>
-                <p style="font-size: 15px;">Birthday: January 17, 2004</p>
-              </div>
-              
-              <h3>Objective</h3>
-              <p>Seeking an opportunity to join an established company and a learning workplace where I can gain valuable experiences, and make the best of my potential, as well as grow and apply my skills and abilities.</p>
-
-              <h3 class="mt-4 ">Contact Information</h3>
-              <ul class="contact-info list-unstyled " style="font-size: 15px;">
-                <li><i class="bi bi-cake"></i>Birthday: January 17, 2004</li>
-                <li><i class="bi bi-geo-alt"></i> Brgy. Sulanga, Cabatuan, Iloilo,5031</li>
-                <li><i class="bi bi-envelope"></i> japu.silvias.ui@phinmaed.com</li>
-                <li><i class="bi bi-phone"></i> +63 9458268294</li>
-                <li><i class="bi bi-linkedin"></i> (linkedin.com/in/example)</li>
-              </ul>
-
-              <div class="skills-animation " style="margin-top:30%;margin-bottom:30%">
-                <h3>Technical Skills</h3>
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Web Development</span>
-                    <span>65%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>UI/UX Design</span>
-                    <span>65%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Python Programming (Basic)</span>
-                    <span>70%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
-                <div class="skill-item">
-                  <div class="d-flex justify-content-between">
-                    <span>Java Programming (Basic)</span>
-                    <span>55%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-
-               <h3 class="mt-4">Other Skills</h3>
-              <ul class="contact-info list-unstyled">
-                <li> Communication Skills</li>
-                <li> Organizational Skills</li>
-                <li> Problem-Solving</li>
-              </ul>
-
-            </div>
-          </div>
-
+        
           <!-- Right column with experience and education -->
-          <div class="col-lg-8 ps-4 ps-lg-5">
-            <!-- Experience Section -->
-            <div class="resume-section" data-aos="fade-up">
-              <h3><i class="bi bi-briefcase me-2"></i>Experience</h3>
-
-              <div class="resume-item">
-                <h4>Chief Information Officer</h4>
-                <h5>March 2022 to August 2022</h5>
-                <p class="company"><i class="bi bi-building"></i> F1 Stackmind</p>
-                <ul>
-                  <li>Manages and lead school organization for programming students</li>
-                </ul>
-              </div>
-
-              <div class="resume-item">
-                <h4>DESO Technical Support </h4>
-                <h5>May 2025</h5>
-                <p class="company"><i class="bi bi-building"></i> Commission on Election</p>
-                <ul>
-                  <li>Troubleshoots Voting machines</li>
-                </ul>
-              </div>
-
-               <div class="resume-item">
-                <h4>Web Developer </h4>
-                <h5>2023-present</h5>
-                <p class="company"><i class="bi bi-building"></i> Phinma University of Iloilo ( CITE Department)</p>
-                <ul>
-                  <li>Design and Program Web-base project for Academic Purposes</li>
-                </ul>
-              </div>
-            </div>
-
-            
-            
+ 
+          
 
             <!-- Education Section -->
-            <div class="resume-section" data-aos="fade-up" data-aos-delay="100">
-              <h3><i class="bi bi-mortarboard me-2"></i>Education</h3>
-
-              <div class="resume-item">
-                <h4>Junior Highschool</h4>
-                <h5>2016-2020</h5>
-                <p class="company"><i class="bi bi-building"></i> Cabatuan National Comprehensive Highschool</p>
-                <p>Specialized in Computer System Servicing. Graduated with honors.</p>
+            <div id="education" class="resume-section" data-aos="fade-up" data-aos-delay="100">
+              <div class="container section-title" data-aos="fade-up">
+              <h2><i class="bi bi-mortarboard me-2"></i>Education and Achievments</h2><br> <br>
+              </div>
+              <div class=" card bg-transparent shadow-sm p-3 resume-item" style="width: 600px;">
+                <P style="font-size:24px;font-weight:500;">Bachelor of Science in Information Technology</P>
+                <p  style="font-size:16px;"><i class="bi bi-building"></i> PHINMA University of Iloilo</p>
+                <p style="font-size:14px;" class="text-light company">2022 - present</p>
+                <p> <i class="bi bi-caret-right"></i> CHAMPION (Best Project Award)- IT Ignition Hackathon(2024)</p>
+                <p> <i class="bi bi-caret-right"></i> 2nd Runner-up - CITE WEEK Debugging Contest (2024)</p>
+                <p> <i class="bi bi-caret-right"></i> 2nd Runner-up - CITE WEEK UI/UX Design (2023)</p>
               </div>
 
-              <div class="resume-item">
-                <h4>Senior Highschool</h4>
-                <h5>2020-2022</h5>
-                <p class="company"><i class="bi bi-building"></i> Cabatuan National Comprehensive Highschool</p>
-                <p>Specialized in Humanity and Social Sciences. Graduated with honors.</p>
+              <div class="position-relative d-flex justify-content-end mb-4">
+              <div class="position-absolute top-0 bottom-0 end-0 border-end border-secondary" style="width:2px;"></div>
+
+      
+              <div class="card bg-transparent shadow-sm p-3 resume-item" style="width: 600px;">
+                <p style="font-size:24px;font-weight:500;">Senior HighSchool: Humanity and Social Sciences(HUMSS) Strand</p>
+                <p style="font-size:16px;"><i class="bi bi-building"></i>Cabatuan National Comprehensive Highschool</p>
+                <p style="font-size:14px;" class="text-light company">2020- 2022</p>
+                <p><i class="bi bi-caret-right"></i>Graduated with Honors</p>
+              </div>
+            </div>
+
+             <div class=" card bg-transparent shadow-sm p-3 resume-item" style="width: 600px;">
+                <P style="font-size:24px;font-weight:500;">Junior HighSchool (ICT Specialization)</P>
+                <p  style="font-size:16px;"><i class="bi bi-building"></i>Cabatuan National Comprehensive Highschool</p>
+                <p style="font-size:14px;" class="text-light company">2016 - 2019</p>
+                <p> <i class="bi bi-caret-right"></i>Consistent Honor Student</p>
               </div>
 
-              <div class="resume-item">
-                <h4> Bachelor of Science in Information</h4>
-                <h5>2022- Present</h5>
-                <p class="company"><i class="bi bi-building"></i> PHINMA University of Iloilo</p>
-                <p>Major in Systems Development. Led Departmental Organization - F1StackMind.</p>
+              <div class="position-relative d-flex justify-content-end mb-4">
+              <div class="position-absolute top-0 bottom-0 end-0 border-end border-secondary" style="width:2px;"></div>
+
+         
+              <div class="card bg-transparent shadow-sm p-3 resume-item" style="width: 600px;">
+                <p style="font-size:24px;font-weight:500;">Elementary : (Star Section-with Computer Literacy Program)</p>
+                <p style="font-size:16px;"><i class="bi bi-building"></i>Cabatuan Central Elementary School</p>
+                <p style="font-size:14px;" class="text-light company">2009- 2016</p>
+                <p><i class="bi bi-caret-right"></i>Graduated with Honors (3rd Honorable Mention)</p>
               </div>
             </div>
 
-            <!-- Certifications Section -->
-            <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
-              <h3><i class="bi bi-award me-2"></i>Certifications</h3>
 
-              <div class="resume-item">
-                <h5>Certificate of Completion - Computer Literacy Training</h5>
-                <h5>October 2017</h5>
-              </div>
 
-              <div class="resume-item">
-                <h4>Certificate of Completion - Introduction to Computing</h4>
-                <h5>December 2, 2022</h5>
-              </div>
 
-               <div class="resume-item">
-                <h5>Certificate of Completion - Introduction to Computing</h5>
-                <h5>December 2, 2022</h5>
-              </div>
+            <div  class="resume-section m-3" data-aos="fade-up">
+              <div class="container section-title" data-aos="fade-up">
+              <h3 id="Activities">Activities and Events</h3>
+                </div>
 
-               <div class="resume-item">
-                <h5>Champion/Best Project Award - IT Ignition 2024</h5>
-                <h5>2024</h5>
-              </div>
+                <section id="portfolio" class="portfolio section">
 
-               <div class="resume-item">
-                <h5>PHINMA UI COMMUNITY ENGAGEMENT PROJECT:“BARANGGAY KO LOVE KO” – CYBERSECURITY GUEST SPEAKER </h5>
-                <h5>2024</h5>
-              </div>
-
-              <div class="resume-item">
-                <h5>DICT START UP CHALLENGE - Top 25 </h5>
-                <h5>2023</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Here are the projects I made through out my time in College</p>
-      </div><!-- End Section Title -->
-
+      
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
           <div class="row">
-            <div class="col-lg-3 filter-sidebar">
-              <div class="filters-wrapper" data-aos="fade-right" data-aos-delay="150">
-                <ul class="portfolio-filters isotope-filters">
-                  <li data-filter="*" class="filter-active">All Projects</li>
-                  <li data-filter=".filter-web">Web-Based</li>
-                  <li data-filter=".filter-game">Games</li>
-                  <li data-filter=".filter-program">Programs</li>
-                  <li><a href="Prototypes.html">Prototypes Images</a></li>
-                  <li data-filter=".filter-codes">Codes</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-9">
+            <div class="col-lg-12">
               <div class="row gy-4 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <div class="portfolio-wrap">
-                    <img src="assets/files/Studilonggo_Thumbnail.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <div class="col-lg-4 col-md-6  portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap" >
+                    <img src="assets/files/eva/resource1.jpg" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">StudIlonggo</span>
-                        <h4>Interactive Learning System</h4>
-                        <div class="portfolio-links">
-                          <a href="Portfolio_Details_pages/Studilonggo.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
+                        <span class="category"></span>
+                        <h4 class="text-white">Student Resource Speaker - PHINMA University of Iloilo Community Engaement Project: <i>"Barangay Ko Love KO"</i></h4>
                       </div>
                     </div>
                   </div>
                 </div><!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-design">
                   <div class="portfolio-wrap">
-                    <img src="assets/files/Predicticare_Thumbnail.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <img src="assets/files/eva/resource2.jpg" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Predicticare</span>
-                        <h4>Care with Predictive Precision</h4>
-                        <div class="portfolio-links">
-                        <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
+                        <span class="category">Student Resource Speaker - PHINMA University of Iloilo Community Engaement Project: <i>"Barangay Ko Love KO"</i></span>
+                        <h4 class="text-white">Delivered an Interactive talk sharing valuable insights about cyber safety</h4>
                       </div>
                     </div>
                   </div>
                 </div><!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-automotive">
                   <div class="portfolio-wrap">
-                    <img src="assets/files/Diarec_Thumbnail.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <img src="assets/files/eva/debug1.jpg" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Diarec</span>
-                        <h4>Diagnosis recording System</h4>
-                        <div class="portfolio-links">
-                         <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
+                        <span class="category">During</span>
+                        <h4 class="text-white">CITE WEEK Debugging Contest (2024)</h4>
                       </div>
                     </div>
                   </div>
                 </div><!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-game">
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-nature">
                   <div class="portfolio-wrap">
-                    <img src="assets/files/Caatfight_Thumbnail.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <img src="assets/files/eva/debug2.jpg" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Catfight</span>
-                        <h4>Natural Growth</h4>
-                        <div class="portfolio-links">
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
+                        <span class="category">CITE WEEK Debugging Contest 2024</span>
+                        <h4 class="text-white">Awarded 2nd Runner-up</h4>
                       </div>
                     </div>
                   </div>
                 </div><!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-photography">
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-photography">
                   <div class="portfolio-wrap">
-                    <img src="assets/files/Attentrack_Thumbnail.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <img src="assets/files/eva/uiux.jpg" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">AttenTrack</span>
-                        <h4>Urban Stories</h4>
-                        <div class="portfolio-links">
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
+                        <span class="category">CITE WEEK UI/UX Design 2024</span>
+                        <h4 class="text-white">Awarded 2nd Runner-up</h4>
                       </div>
                     </div>
                   </div>
                 </div><!-- End Portfolio Item -->
 
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-program">
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-design">
                   <div class="portfolio-wrap">
-                    <img src="assets/files/Genre_Predictor_Thumbnail.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                    <img src="assets/files/immgs/7.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
                     <div class="portfolio-info">
                       <div class="content">
-                        <span class="category">Genre Predictor</span>
-                        <h4>Digital Experience</h4>
-                        <div class="portfolio-links">
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
+                        <span class="category">Binary Blitz Event</span>
+                        <h4 class="text-white">Speaker and Demonstrated mini machine learning program</h4>
                       </div>
                     </div>
                   </div>
                 </div><!-- End Portfolio Item -->
-
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-program">
-                  <div class="portfolio-wrap">
-                    <img src="assets/files/Docganize.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Docganize</span>
-                        <h4>Digital Experience</h4>
-                        <div class="portfolio-links"><a href="assets/img/portfolio/portfolio-6.webp" class="glightbox" title="Digital Experience"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Portfolio Item -->
-
-                <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-program">
-                  <div class="portfolio-wrap">
-                    <img src="assets/files/Natglam.png" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                    <div class="portfolio-info">
-                      <div class="content">
-                        <span class="category">Natglam Cosmetics</span>
-                        <h4>Digital Experience</h4>
-                        <div class="portfolio-links"><a href="assets/img/portfolio/portfolio-6.webp" class="glightbox" title="Digital Experience"><i class="bi bi-plus-lg"></i></a>
-                          <a href="portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- End Portfolio Item -->
-
-
                 
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-nature">
+                  <div class="portfolio-wrap">
+                    <img src="assets/files/immgs/4.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">CITE WEEK Debugging Contest 2024</span>
+                        <h4 class="text-white">Awarded 2nd Runner-up</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap">
+                    <img src="assets/files/immgs/8.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">CITE WEEK UI/UX Design 2024</span>
+                        <h4 class="text-white">Awarded 2nd Runner-up</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/files/immgs/9.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Binary Blitz Event</span>
+                        <h4 class="text-white">Speaker and Demonstrated mini machine learning program</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-nature">
+                  <div class="portfolio-wrap">
+                    <img src="assets/files/immgs/5.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">CITE WEEK Debugging Contest 2024</span>
+                        <h4 class="text-white">Awarded 2nd Runner-up</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap">
+                    <img src="assets/files/immgs/10.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">CITE WEEK UI/UX Design 2024</span>
+                        <h4 class="text-white">Awarded 2nd Runner-up</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/files/immgs/2.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Binary Blitz Event</span>
+                        <h4 class="text-white">Speaker and Demonstrated mini machine learning program</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-nature">
+                  <div class="portfolio-wrap">
+                    <img src="assets/files/immgs/6.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">CITE WEEK Debugging Contest 2024</span>
+                        <h4 class="text-white">Awarded 2nd Runner-up</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-photography">
+                  <div class="portfolio-wrap">
+                    <img src="assets/files/immgs/8.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">CITE WEEK UI/UX Design 2024</span>
+                        <h4 class="text-white">Awarded 2nd Runner-up</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6. portfolio-item isotope-item filter-design">
+                  <div class="portfolio-wrap">
+                    <img src="assets/files/immgs/9.png" class="img-fluid " alt="Portfolio Image" style="max-width: 300px; max-height:250px;" loading="lazy">
+                    <div class="portfolio-info">
+                      <div class="content">
+                        <span class="category">Binary Blitz Event</span>
+                        <h4 class="text-white">Speaker and Demonstrated mini machine learning program</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Portfolio Item -->
 
               </div><!-- End Portfolio Container -->
             </div>
@@ -461,10 +368,228 @@
 
       </div>
 
+    </section>
+
+
+
+              <div class="card p-3 shadow-sm bg-dark mb-3">
+                <h4 style="font-size:24px;">F1STACKMIND - Cheif Information Officer</h4>
+                <p class="company text-secondary"> School Departmental Organization, CITE PHINMA UI | <i>2023 - 2025</i></p>
+                <ul class="text-light">
+                  <li>Led and managed a student organization focused on programming and IT development.</li>
+                  <li>Oversaw projects, coordinated events, and guided members in technical initiatives.</li>
+                  <li>Mentored students in learning the fundamentals of Python and introductory Flask development.</li>
+                </ul>
+              </div>
+
+               <div class="card p-3 shadow-sm bg-transparent mb-3">
+                <h4 style="font-size:24px;">Participant - AI.deas for Impact 2025</h4>
+                <p class="company text-secondary"> DICT Region VI | <i> 2025</i></p>
+                <ul class="text-light">
+                  <li>Represented the F1STACKMIND,PHINMA UI in a regional hackathon that empowers senior college students to create innovative, ethical, and privacy-conscious AI solutions. </li>
+                </ul>
+              </div>
+
+              <div class="card p-3 shadow-sm bg-dark mb-3">
+                <h4 style="font-size:24px;">Participant - IT IGNITION 2024</h4>
+                <p class="company text-secondary"> CITE Department, PHINMA UI | <i> 2024</i></p>
+                <ul class="text-light">
+                  <li>Participated in a 3 day Training, Seminar, and Hackathon contest organized by CITE Student council.</li>
+                  <li>Learned from industry experts, and participated in interactive workshops</li>
+                  <li>Won the Best Project Award(Studilonggo) and Best Team Name - CHAMPION</li>
+                </ul>
+              </div>
+              
+               <div class="card p-3 shadow-sm bg-transparent mb-3">
+                <h4 style="font-size:24px;"> Speaker - Binary Blitz: IT Majors Unleashed</h4>
+                <p class="company text-secondary">F1STACKMIND,CITE Department <i> 2024</i></p>
+                <ul class="text-light">
+                  <li>Organized an enlightening showcase that highlighted the diverse fields of digital arts, systems development, game development, business informatics, and computer security.</li>
+                  <li>Demonstrated the fascinating world of machine learning, showcasing a movie/book genre prediction model using Python libraries such as Pandas and Sci-kit Learn.</li>
+                  <li>Introduced the field of business informatics, highlighting its components and the vast array of job opportunities it offers</li>
+                </ul>
+              </div>
+
+
+                <div class="card p-3 shadow-sm bg-dark mb-3">
+                <h4 style="font-size:24px;"> Student Resource Speaker - PHINMA University of Iloilo Community Engaement Project: <i>"Barangay Ko Love KO"</i></h4>
+                <p class="company text-secondary">Brgy. Ibarra, City Proper, Iloilo City <i> 2024</i></p>
+                <ul class="text-light">
+                  <li>Delivered an Interactive talk sharing valuable insights about cyber safety</li>
+                  <li>Encouraged curiosity and awareness in cybersecurity through engaging discussions and hands-on activities</li>
+                  <li>Promoted digital literacy and safe online habits among the community of Brgy. Ibarra</li>
+                </ul>
+              </div>
+              
+              <div class="card p-3 shadow-sm bg-transparent mb-3">
+                <h4 style="font-size:24px;"> Region VI Philippine Startup Challenge 8 - F1 Overseer (F1 Visionaries)</h4>
+                <p class="company text-secondary">DICT Region VI  <i> 2023</i></p>
+                <ul class="text-light">
+                  <li>Presented F1-Overseer, an IOT-based safety app. </li>
+                  <li>Focused on personal safety through GPS tracking, emergency alerts, and automatic audio recording for evidence and real-time response.</li>
+                  <li>Selected as a Top 25 Finalist in the competition.</li>
+                </ul>
+              </div>
+
+                <div class="card p-3 shadow-sm bg-dark mb-3">
+                <h4 style="font-size:24px;"> Speaker - Operation Code Craft: To unleash the magic of programming</h4>
+                <p class="company text-secondary">F1STACKMIND,CITE Department <i> 2023</i></p>
+                <ul class="text-light">
+                  <li>Organized event bringing Web Development, Game Development, Cybersecurity, and Robotics onto the plates of these curious minds.</li>
+                  <li>Discussed the fundamentals of game development, mentioning "2D", "3D", and different software used to create games.</li>
+                  <li>Event aimed to ignite the IT passion within every freshmen.</li>
+                </ul>
+              </div>
+
+             
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>Here are the projects I made through out my time in College</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="container py-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+              
+              <div class="col rounded-3">
+                <div class="card  custom-shadow h-100 bg-transparent">
+                  <img src="assets/files/Attentrack_Thumbnail.png" class="card-img-top"  style="height:250px;" alt="StudIlonggo">
+                  <div class="card-body rounded-3 bg-transparet border-dark d-flex flex-column">
+                    <div style="height:80px;">
+                      <p class=" text-secondary fontsubhead">HTML | Python Flask | Javascript | MySQL | OpenCV | Face_recognition | Textbee | Bootstrap | CSS</p>
+                    </div>
+                     <h4 class=" text-white fontheading">AttenTrack </h4>
+                    <p class=" text-light fontdesc flex-grow-1">A Facial Recognition Attendance Tracking and Recording System that securely identifies students and sends SMS notifications to their guardians, 
+                      ensuring accurate records and efficient management of student attendance.</p>
+                    <a href="https://github.com/Nins17/ATTENTRACK.git" class="btn btn-light btn-sm mt-auto"><i class="bi bi-github"></i>View Repository</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col rounded-3">
+                <div class="card custom-shadow h-100 bg-transparent">
+                  <img src="assets/files/Studilonggo_Thumbnail.png" class="card-img-top" style="height:250px;" alt="StudIlonggo">
+                  <div class="card-body rounded-3 bg-transparent border-dark d-flex flex-column">
+                    <div style="height:80px;">
+                      <p class="card-text text-secondary fontsubhead">HTML | Python Flask | Pandas | MySQL | CSS</p>
+                    </div>
+                    <h4 class="card-title text-white fontheading">StudIlonggo</h4>
+                    <p class="card-text text-light fontdesc flex-grow-1">
+                      StudIlonggo is an educational system where kids can play games , read resources that can help them enhance Ilonggo comprehensions.This system also provides dictionary translating English words to Ilonggo words.
+                    </p>
+                    <a href="https://github.com/Nins17/Studilonggo.git" class="btn btn-light btn-sm mt-auto">
+                      <i class="bi bi-github"></i> View Repository
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col rounded-3">
+                <div class="card  custom-shadow h-100 bg-transparent">
+                  <img src="assets/files/Predicticare_Thumbnail.png" class="card-img-top" style="height:250px;" alt="Predicticare">
+                  <div class="card-body rounded-3 bg-transparet border-dark d-flex flex-column">
+                    <div style="height:80px;">
+                      <p class="card-title text-secondary fontsubhead">HTML | Python Flask | Bootstrap | CSS | MySQL | Javascript | Pandas |</p>
+                    </div>
+                    <h5 class="card-title text-white fontheading">Predicticare  </h5>
+                  <p class="card-text text-white fontdesc flex-grow-1"> Mini Capstone. A healthcare system focused on predictive analysis with text-to-speech and records management.</p>
+                    <a href="https://github.com/Nins17/minicapstone.git" class="btn btn-light btn-sm mt-auto"><i class="bi bi-github"></i>View Repository</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col rounded-3">
+                <div class="card  custom-shadow h-100 bg-transparent">
+                  <img src="assets/files/Diarec_Thumbnail.png" class="card-img-top" style="height:250px;" alt="StudIlonggo">
+                  <div class="card-body rounded-3 bg-transparent border-dark d-flex flex-column">
+                    <div style="height:80px;">
+                      <p class="card-title text-secondary fontsubhead">HTML | Python Flask | MySQL | Vonage | xhtml2pdf | CSS | Bootstrap</p>
+                    </div>
+                    <h5 class="card-title text-white fontheading">Diarec</h5>
+                    <p class="card-text text-white fontdesc flex-grow-1">A digital system for recording and tracking diagnostic records efficiently.</p>
+                    <a href="https://github.com/Nins17/Capstone_New.git" class="btn btn-light btn-sm mt-auto"><i class="bi bi-github"></i>View Repository</a>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col rounded-3">
+                <div class="card  custom-shadow h-100 bg-transparent">
+                  <img src="assets/files/Docganize.png" class="card-img-top"style="height:250px;" alt="StudIlonggo">
+                  <div class="card-body rounded-3 bg-transparent border-dark d-flex flex-column">
+                    <div style="height:80px;">
+                      <p class="card-title text-secondary fontsubhead">Python Tkinter| Python | MySQL</p>
+                    </div>
+                    <h5 class="card-title text-white fontheading">Docganize</h5>
+                  <p class="card-text text-white fontdesc flex-grow-1">A patient management inventory system. My second project while exploring tkinter.</p>
+                    <a href="https://github.com/Nins17/Docganize.git" class="btn btn-light btn-sm mt-auto"><i class="bi bi-github"></i>View Repository</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col rounded-3">
+                <div class="card custom-shadow h-100 bg-transparent">
+                  <img src="assets/files/Genre_Predictor_Thumbnail.png" class="card-img-top" style="height:250px;" alt="StudIlonggo">
+                  <div class="card-body rounded-3 bg-transparent border-dark d-flex flex-column">
+                    <div style="height:80px;">
+                      <p class="card-title text-secondary fontsubhead">Python Tkinter | Python | Sci-kit Learn | Pandas</p>
+                    </div>
+                    <h5 class="card-title text-white fontheading">Genre Predictor App</h5>
+                    <p class="card-text text-white fontdesc flex-grow-1"> My First Tkinter and machine learning project. An application that predicts the genres that a certain gender or age likes the most based on a given dataset.</p>
+                    <a href="" class="btn btn-light btn-sm mt-auto"><i class="bi bi-github"></i>View Repository</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col rounded-3">
+                <div class="card  custom-shadow h-100 bg-transparent">
+                  <img src="assets/files/Caatfight_Thumbnail.png" class="card-img-top" style="height:250px;" alt="StudIlonggo">
+                  <div class="card-body rounded-3 bg-transparent border-dark d-flex flex-column">
+                    <div style="height:80px;">
+                       <p class="card-title text-secondary fontsubhead">Pygame</p>
+                    </div>
+                    <h5 class="card-title text-white fontheading">Cat Fight</h5>
+                    <p class="card-text text-light fontdesc flex-grow-1">Python minigame project.Developed using Python proramming language.</p>
+                    <a href="https://github.com/Nins17/Game-and-Catfight.git" class="btn btn-light btn-sm mt-auto"><i class="bi bi-github"></i>View Repository</a>
+                  </div>
+                </div>
+              </div>
+
+               <div class="col rounded-3">
+                <div class="card  custom-shadow h-100 bg-transparent">
+                  <img src="assets/files/Natglam.png" class="card-img-top" style="height:250px;" alt="StudIlonggo">
+                  <div class="card-body rounded-3 bg-transparent border-dark d-flex flex-column">
+                    <div style="height:80px;">
+                      <p class="card-title text-secondary fontsubhead">HTML | CSS </p>
+                    </div>
+                    <h5 class="card-title text-white fontheading">NatGlam</h5>
+                    <p class="card-text text-white fontdesc flex-grow-1">A static E-commerce website built from scratch using HTML and CSS </p>
+                    <a href="https://github.com/Nins17/NatGlamEcommerce.git" class="btn btn-light btn-sm mt-auto"><i class="bi bi-github"></i>View Repository</a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+     </div><!-- End Portfolio Container -->
+            </div>
+          </div>
+        </div>
+      </div>  
+
     </section><!-- /Portfolio Section -->
 
     
-
+  
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -474,89 +599,44 @@
         <h2>Contact</h2>
       </div><!-- End Section Title -->
 
-      <div class="container">
+   <div class="container py-5">
+  <h3 class="text-center mb-4">Contact Info</h3>
 
-        <div class="row g-4 g-lg-5">
-          <div class="col-lg-5">
-            <div class="info-box">
-              <h3>Contact Info</h3>
-            
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-geo-alt"></i>
-                </div>
-                <div class="content">
-                  <h4>Address</h4>
-                  <p>Zone3 Brgy. Sulanga</p>
-                  <p>Cabatuan, Iloilo 5031</p>
-                </div>
-              </div>
+  <div class="row g-4 justify-content-center text-center">
 
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-telephone"></i>
-                </div>
-                <div class="content">
-                  <h4>Phone Number</h4>
-                  <p>+63 9458268294</p>
-                  <p>+63 9457001103</p>
-                </div>
-              </div>
-
-              <div class="info-item">
-                <div class="icon-box">
-                  <i class="bi bi-envelope"></i>
-                </div>
-                <div class="content">
-                  <h4>Email Address</h4>
-                  <p>japu.silvias.ui@phinmaed.com</p>
-                  <p>silvias.janinanne.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <div class="contact-form">
-              <h3>Get In Touch</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
-
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="row gy-4">
-
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                  </div>
-
-                  <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                    <button type="submit" class="btn">Send Message</button>
-                  </div>
-
-                </div>
-              </form>
-
-            </div>
-          </div>
-
-        </div>
-
+    <!-- Address -->
+    <div class="col-12 col-md-4">
+      <div class="info-box p-4 shadow-sm bg-white rounded">
+        <i class="bi bi-geo-alt fs-3 text-primary mb-2"></i>
+        <h5>Address</h5>
+        <p class="mb-1">Zone 3, Brgy. Sulanga</p>
+        <p>Cabatuan, Iloilo 5031</p>
       </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="col-12 col-md-4">
+      <div class="info-box p-4 shadow-sm bg-white rounded">
+        <i class="bi bi-telephone fs-3 text-primary mb-2"></i>
+        <h5>Phone Number</h5>
+        <p class="mb-1">+63 9458268294</p>
+        <p>+63 9457001103</p>
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="col-12 col-md-4">
+      <div class="info-box p-4 shadow-sm bg-white rounded">
+        <i class="bi bi-envelope fs-3 text-primary mb-2"></i>
+        <h5>Email Address</h5>
+        <p class="mb-1">japu.silvias.ui@phinmaed.com</p>
+        <p>silvias.janinanne.com</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
     </section><!-- /Contact Section -->
 
@@ -566,14 +646,14 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Janin Anne Silvias</strong> <span>All Rights Reserved</span></p>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
       </div>
     </div>
 
